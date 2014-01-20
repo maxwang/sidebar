@@ -46,12 +46,14 @@
     };
         
     Plugin.prototype.toggle = function(sub, open) {
-        
+        return open ? sub.slideDown(this.options.slideDown) : sub.slideUp(this.options.slideDown); 
+        /*
         if(open) {
           sub.slideDown(this.options.slideDown);
         } else {
           sub.slideUp(this.options.slideDown);  
         }
+        */
     };
     
     $.fn.alltelSidebar = function(options) {
