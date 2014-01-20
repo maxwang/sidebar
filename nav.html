@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>nav</title>
+		<meta name="author" content="mwang" />
+		<!-- Date: 2014-01-17 -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+		<link href="css/jquery-sidebar.css" rel="stylesheet" media="screen" />
+		<style type="text/css">
+			.success { color: black;}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<ul class="nav alltel-nav">
+						<li>
+							<a href="#overview">Overview</a>
+							<ul class="nav">
+								<li><a href="nav.html">HTM5</a></li>
+								<li><a href="tabs.html">JavaScript</a></li>
+								<li><a href="http://google.com.au">CSS</a></li>
+								<li><a href="http://amazon.com">XML</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#overview">Grid</a>
+							<ul class="nav">
+								<li><a href="dusttest.html">HTM5</a></li>
+								<li><a href="components.html">JavaScript</a></li>
+								<li><a href="dslsummary.html">HTML</a></li>
+								<li><a href="index.html">CSS</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#overview">Typography</a>
+							<ul class="nav">
+								<li><a href="http://abc.com.au">HTM5</a></li>
+								<li><a href="http://smh.com.au">JavaScript</a></li>
+								<li><a href="http://jquery.com">HTML</a></li>
+								<li><a href="http://www.w3school.com">CSS</a></li>								
+							</ul>
+						</li>
+						<li>
+							<a href="index.html">Link</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-9">
+					content
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jquery-sidebar.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('.alltel-nav').alltelSidebar();
+			});
+		</script>
+	</body>
+</html>
+
